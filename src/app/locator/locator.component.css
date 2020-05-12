@@ -1,0 +1,8 @@
+.locator {
+  width: 90%;
+  margin: 1rem auto 0;
+}
+
+mat-form-field, button {
+  width: 100%;
+}

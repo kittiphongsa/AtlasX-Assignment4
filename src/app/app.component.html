@@ -1,0 +1,9 @@
+<app-esri-map
+  [center]="[mapPoint.longitude,mapPoint.latitude]"
+  [basemap]="basemapType"
+  [zoom]="mapZoomLevel"
+  (mapLoadedEvent)="mapLoadedEvent($event)"
+  (locationChangedEvent)="locationChangedEvent($event)"
+>
+</app-esri-map>
+<app-locator [locatePoint]="mapPoint"></app-locator>
